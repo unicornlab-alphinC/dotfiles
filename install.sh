@@ -15,3 +15,7 @@ mkdir -p $HOME/.config
 # nvim
 remove_non_dirlink $HOME/.config/nvim
 ln -sfn $DIR/nvim $HOME/.config
+
+# i3
+remove_non_dirlink $HOME/.config/i3
+ln -sfn $DIR/i3 $HOME/.config
