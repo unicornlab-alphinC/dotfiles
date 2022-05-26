@@ -60,6 +60,8 @@ Plug 'fatih/vim-go', { 'do': ':GoUpdateBinaries' }
 Plug 'neoclide/coc.nvim', {'branch': 'release'}
 Plug 'SirVer/ultisnips'
 
+" - Markdown
+Plug 'iamcco/markdown-preview.nvim'
 
 " - Theme
 Plug 'NLKNguyen/papercolor-theme'
@@ -73,6 +75,13 @@ Plug 'morhetz/gruvbox'
 
 Plug 'SirVer/ultisnips'
 Plug 'honza/vim-snippets'
+
+" - Tab sizing
+set tabstop=4
+set shiftwidth=4
+set softtabstop=4
+set expandtab
+
 call plug#end()
 
 " set termguicolors

@@ -16,6 +16,13 @@ mkdir -p $HOME/.config
 remove_non_dirlink $HOME/.config/nvim
 ln -sfn $DIR/nvim $HOME/.config
 
-# i3
+# i3 regolith main
 remove_non_dirlink $HOME/.config/i3
 ln -sfn $DIR/i3 $HOME/.config
+
+# regolith folder
+mkdir -p $HOME/.config/regolith
+
+# i3 regolith user
+remove_non_dirlink $HOME/.config/regolith/i3
+ln -sfn $DIR/regolith/i3 $HOME/.config/regolith/i3
