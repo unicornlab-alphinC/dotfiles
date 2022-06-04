@@ -41,4 +41,4 @@ alias vi="nvim"
 alias vim="nvim"
 
 alias kube="kubectl"
-
+bindkey -v
