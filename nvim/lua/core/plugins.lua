@@ -152,12 +152,12 @@ local astro_plugins = {
   },
 
   -- Path completion source
-  ["hrsh7th/cmp-path"] = {
-    after = "nvim-cmp",
-    config = function()
-      astronvim.add_user_cmp_source "path"
-    end,
-  },
+  -- ["hrsh7th/cmp-path"] = {
+  --   after = "nvim-cmp",
+  --   config = function()
+  --     astronvim.add_user_cmp_source "path"
+  --   end,
+  -- },
 
   -- LSP completion source
   ["hrsh7th/cmp-nvim-lsp"] = {
