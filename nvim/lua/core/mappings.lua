@@ -28,7 +28,22 @@ map("n", "<leader>pu", "<cmd>PackerUpdate<cr>", { desc = "Packer Update" })
 
 -- Alpha
 if is_available "alpha-nvim" then
-  map("n", "<leader>d", "<cmd>Alpha<cr>", { desc = "Alpha Dashboard" })
+  map("n", "<leader>D", "<cmd>Alpha<cr>", { desc = "Alpha Dashboard" })
+end
+
+-- Vimspector
+if is_available("vimspector") then
+  map("n", "<leader>dd", "<cmd>call vimspector#Launch()<cr>", {desc = "Launch debugger" })
+  map("n", "<leader>dr", "<cmd>call vimspector#Reset()<cr>", {desc = "Reset debugger" })
+  map("n", "<leader>dc", "<cmd>call vimspector#Continue()<cr>", {desc = "Continue debugger" })
+
+  map("n", "<leader>dt", "<cmd>call vimspector#ToggleBreakpoint()<cr>", {desc = "Toggle breakpoint" })
+  map("n", "<leader>dT", "<cmd>call vimspector#ClearBreakpoints()<cr>", {desc = "Clear all breakpoints" })
+
+  map("n", "<leader>dk", "<cmd>call vimspector#Restart()<cr>", {desc = "Restart debugger" })
+  map("n", "<leader>dh", "<cmd>call vimspector#StepOut()<cr>", {desc = "Step out debugger" })
+  map("n", "<leader>dl", "<cmd>call vimspector#StepInto()<cr>", {desc = "Step into debugger" })
+  map("n", "<leader>dj", "<cmd>call vimspector#StepOver()<cr>", {desc = "Step over debugger" })
 end
 
 -- Bufdelete

@@ -58,7 +58,8 @@ local config = {
   plugins = {
     -- Add plugins, the packer syntax without the "use"
     init = {
-      "rebelot/kanagawa.nvim"
+      "rebelot/kanagawa.nvim",
+      "puremourning/vimspector"
       -- You can disable default plugins as follows:
       -- ["goolord/alpha-nvim"] = { disable = true },
 
