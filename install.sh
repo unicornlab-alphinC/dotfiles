@@ -1,3 +1,4 @@
+#!/bin/bash
 
 remove_non_dirlink() {
     if [[ ! (-L $1 && -d $1) && -d $1 || -f $1 ]]; then
@@ -30,3 +31,7 @@ ln -sfn $DIR/regolith/i3 $HOME/.config/regolith2/i3
 # Kitty config
 remove_non_dirlink $HOME/.config/kitty
 ln -sfn $DIR/kitty $HOME/.config
+
+# ZSH config
+remove_non_dirlink $HOME/.zshrc
+ln -s $DIR/.zshrc $HOME/.zshrc
