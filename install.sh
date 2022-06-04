@@ -25,8 +25,8 @@ ln -sfn $DIR/nvim $HOME/.config
 mkdir -p $HOME/.config/regolith2
 
 # i3 regolith user
-remove_non_dirlink $HOME/.config/regolith2/i3
-ln -sfn $DIR/regolith/i3 $HOME/.config/regolith2/i3
+remove_non_dirlink $HOME/.config/regolith2
+ln -sfn $DIR/regolith2 $HOME/.config
 
 # Kitty config
 remove_non_dirlink $HOME/.config/kitty
