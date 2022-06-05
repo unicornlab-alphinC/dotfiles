@@ -201,6 +201,7 @@ local config = {
       pattern = "plugins.lua",
       command = "source <afile> | PackerSync",
     })
+    vim.wo.colorcolumn = '80'
 
     -- Set up custom filetypes
     -- vim.filetype.add {
