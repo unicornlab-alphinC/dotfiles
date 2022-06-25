@@ -109,6 +109,9 @@ alias vi="nvim"
 alias vim="nvim"
 
 alias kube="kubectl"
+
+unalias gm
+
 export PATH=$HOME/.dotnet:$PATH
 export DOTNET_ROOT=/home/dcruza/.dotnet
 export PATH=/usr/local/go/bin:$PATH
