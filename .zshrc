@@ -108,6 +108,8 @@ alias v="nvim"
 alias vi="nvim"
 alias vim="nvim"
 
+alias btw="neofetch"
+
 alias kube="kubectl"
 
 unalias gm
