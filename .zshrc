@@ -118,4 +118,7 @@ export PATH=$HOME/.dotnet:$PATH
 export DOTNET_ROOT=/home/dcruza/.dotnet
 export PATH=/usr/local/go/bin:$PATH
 export PATH=/home/dcruza/bin:$PATH
+export PATH=$HOME/go/bin:$PATH
+export EDITOR=nvim
+
 export JAVA_HOME=/usr/bin/java
