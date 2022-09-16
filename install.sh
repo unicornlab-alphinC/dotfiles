@@ -43,3 +43,7 @@ ln -s $DIR/.zshrc $HOME/.zshrc
 # tmux config
 remove_non_dirlink $HOME/.tmux.conf
 ln -s $DIR/.tmux.conf $HOME/.tmux.conf
+
+# Kitty config
+remove_non_dirlink $HOME/.config/wallpapers
+ln -sfn $DIR/wallpapers $HOME/.config
