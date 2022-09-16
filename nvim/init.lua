@@ -8,10 +8,10 @@ vim.opt.rtp:append(vim.fn.stdpath "config" .. "/../astronvim")
 for _, source in ipairs {
   "core.utils",
   "core.options",
+  "core.bootstrap",
   "core.plugins",
   "core.autocmds",
   "core.mappings",
-  "core.ui",
   "configs.which-key-register",
 } do
   local status_ok, fault = pcall(require, source)
