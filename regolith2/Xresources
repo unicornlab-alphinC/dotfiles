@@ -4,3 +4,12 @@ i3-wm.client.focused.color.child_border: #e6c384
 regolith.look.path: /usr/share/regolith-look/dracula
 regolith.wallpaper.file: ~/.config/wallpapers/watchmaker.png
 
+#include "/etc/regolith/styles/ubuntu/typeface"
+
+#define gtk_font_name Ubuntu Nerd Font 12
+#define gtk_document_font_name Sans 12
+#define gtk_monospace_font_name Ubuntu Nerd Font 12
+
+gtk.font_name: gtk_font_name
+gtk.document_font_name: gtk_document_font_name
+gtk.monospace_font_name: gtk_monospace_font_name
